@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<summary>The user cannot log in the site via google account</summary>
-<type>bug</type>
-<component>authorisation</component>
-<severity>minor</severity>
-<environment> z24shop</environment>
-<test_date>02.10.21</test_date>
-<precondition>have an account in google</precondition>
-<description>The bug is produced while trying to log in the site via google account. The user is sent back to the home page with unsuccessful attempt to log in</description>
-<steps_to_reproduce>1. go to site z24.shop; 2. click on увійти; 3. click on увійти через google</steps_to_reproduce>
-<actual_result>the button увійти за допомогою google is disabled</actual_result>
+<?xml version='1.0'?>   
+<bug>
+<summary>"The user cannot log in the site via google account"</summary>
+ <type>"bug"</type>
+ <component>"authorisation"</component>
+ <severity>"minor" </severity>
+  <testdate>12.10.2021</testdate>
+  <precondition>"have_an_account_in_google"</precondition>
+  <description>"The bug is produced while trying to log in the site via google account. The user is sent back to the home page with unsuccessful attempt to log in"</description>
+  <stepstoreproduce>
+      <number1>"go to site google.com"</number1>
+      <number2>"click on login"</number2>
+      <number3>"click authorization"</number3>
+    </stepstoreproduce>
+  <actualresult>" the button login is disabled"</actualresult>
+ </bug>
 
